@@ -30,7 +30,7 @@ const userSchema = new mongoose.Schema({
     ToiletFacilities: { type:Boolean},
     AvailabilityofCleanWater:{type:String},
     OrganicWasteManagementMethod:{type:String},
-    InorganicWasteManagementMethod:{type:String},
+    InorganicWasteManagementMethod:{type:Boolean},
     NoofpeoplewithPermanentjob:{type:String},
     familyMonthlyIncome:{type:String},
     OtherMethodInorganicWasteManagement:{type:String}
