@@ -8,6 +8,7 @@ const adminSchema = new mongoose.Schema({
     userName : {type:String},
     mobile :{type:String},
     password : {type:String},
+    role: {type:String}
 },{timestamps: false});
 
 module.exports = mongoose.model('Admin' , adminSchema);

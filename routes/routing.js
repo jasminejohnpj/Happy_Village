@@ -6,6 +6,6 @@ app.use(cors())
 
 app.use('/user',require('../controller/User'));
 app.use('/dropdown' , require('../controller/dropdown'));
-
+app.use('/admin', require('../controller/admin'));
 
 module.exports = app;
